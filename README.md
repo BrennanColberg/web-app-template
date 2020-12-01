@@ -1,3 +1,28 @@
+This is my current template for new web apps—it contains all of my favorite technologies, pre-configured to work together so that I can get right into building any new ideas.
+
+Technologies used for adding core functionality:
+
+- React ([npm](https://www.npmjs.com/package/react), [docs](https://reactjs.org/docs)): used for website structure & content
+- Next.js ([npm](https://www.npmjs.com/package/next), [docs](https://nextjs.org/docs)): used for server-side rendering
+- Firebase ([npm](https://www.npmjs.com/package/firebase), [docs](https://firebase.google.com/docs)): used for storing data, user-based analytics, and authentication
+- TailwindCSS ([npm](https://www.npmjs.com/package/tailwindcss), [docs](https://tailwindcss.com/docs)): used for easy, scalable styling
+
+Technologies used for code quality and ease of development:
+
+- Typescript ([npm](https://www.npmjs.com/package/typescript), [docs](https://www.typescriptlang.org/docs)): used to add types to JavaScript (and thereby make it usable)
+- ESLint ([npm](https://www.npmjs.com/package/eslint), [docs](https://eslint.org)): used for checking the validity of code syntax
+- Prettier ([npm](https://www.npmjs.com/package/prettier), [docs](https://prettier.io/docs/en/index.html)): used for code formatting & style enforcement
+- Husky ([npm](https://www.npmjs.com/package/husky), [docs](https://typicode.github.io/husky)): used for running lint / formatting / test / etc before each commit
+
+Accounts that need to be set up for each project:
+
+- [Vercel](https://vercel.com): used for hosting, CI, and performance-based analytics
+- [Firebase](https://firebase.google.com): used for storing data, user-based analytics, and authentication
+
+Note: for the code to work properly, replace the `firebaseConfig` object in `firebase/index.ts` with one for a "Web App" in a Firebase project.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
